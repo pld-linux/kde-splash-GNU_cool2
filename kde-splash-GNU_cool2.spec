@@ -21,10 +21,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-"GNU Cool 2" KDE splash screen.
+Another splash for KDE with nice graphics from gnu.org.
+Inspired by "GNU Cool" theme.
 
 %description -l pl
-Ekran startowy KDE "GNU Cool 2".
+Kolejny ekran startowy KDE oparty na ³adnej grafice z gnu.org.
+Zainspirowany przez motyw "GNU Cool".
 
 %prep
 %setup -q -c %{_splash} -n %{_splash} -a1
