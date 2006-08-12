@@ -34,7 +34,7 @@ Zainspirowany przez motyw "GNU Cool".
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/apps/ksplash/Themes/%{_splash}-trans \
-           $RPM_BUILD_ROOT%{_datadir}/apps/ksplash/Themes/%{_splash}
+	$RPM_BUILD_ROOT%{_datadir}/apps/ksplash/Themes/%{_splash}
 install %{_splash}-trans/* $RPM_BUILD_ROOT%{_datadir}/apps/ksplash/Themes/%{_splash}-trans
 install %{_splash}/* $RPM_BUILD_ROOT%{_datadir}/apps/ksplash/Themes/%{_splash}
 
