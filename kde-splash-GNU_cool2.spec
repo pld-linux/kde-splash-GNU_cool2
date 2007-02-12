@@ -2,7 +2,7 @@
 %define		_splash		GNU_cool2
 
 Summary:	KDE splash screen
-Summary(pl):	Ekran startowy KDE
+Summary(pl.UTF-8):   Ekran startowy KDE
 Name:		kde-splash-%{_splash}
 Version:	1.0
 Release:	2
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Another splash for KDE with nice graphics from gnu.org.
 Inspired by "GNU Cool" theme.
 
-%description -l pl
-Kolejny ekran startowy KDE oparty na ³adnej grafice z gnu.org.
+%description -l pl.UTF-8
+Kolejny ekran startowy KDE oparty na Å‚adnej grafice z gnu.org.
 Zainspirowany przez motyw "GNU Cool".
 
 %prep
